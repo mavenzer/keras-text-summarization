@@ -54,8 +54,14 @@ the same process of training and prediction.
 To train a deep learning model, say Seq2SeqSummarizer, run the following commands:
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
+```
+```bash 
+ python setup.py install
+ ```
 
+ 
+```bash
 cd demo
 python seq2seq_train.py 
 ```
